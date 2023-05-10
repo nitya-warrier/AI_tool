@@ -23,7 +23,10 @@ beautifulsoup4 (for parsing the search results)
 trafilatura (for scraping the text from the webpages)
 
 nltk(for breaking the results into chunks for feeding the AI model)
+
 openai
+
+spacy
 
 You can install these dependencies by running the following command:
 
