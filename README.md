@@ -14,7 +14,8 @@ You can then specify any topics that you wish to exclude from the search results
 After excluding any unwanted topics, the program will provide a summarized report of the remaining search results.
 
 Dependencies
-This program requires the following dependencies:
+
+This program requires the following dependencies/packages to be installed:
 
 google (for performing the Google search)
 
@@ -31,16 +32,24 @@ spacy
 You can install these dependencies by running the following command:
 
 pip install google
+
 and so on for the other packages. 
-Limitations
+
+Limitations: 
+
 Please note that this program has some limitations:
 
 It relies on the accuracy of Google search results, which may not always be reliable.
+
 You can only give the search numbers to exclude. 
+
 This will give you only the top 10 results. 
+
 It may not be able to accurately summarize certain types of content, such as images or videos.
+
 It may not work properly if your internet connection is slow or unstable.
 
 
 Contact
+
 If you have any questions or feedback about this program, please contact me at nitya.warrier@gmail.com 
