@@ -47,7 +47,7 @@ for i in search(topic, tld = "com", num=10, stop=10, pause=2):
     print(i)
     top10.append(i)
 
-exclude = input("Which searches should we exclude from the top 10 searches listed above?  ")
+exclude = input("Which searches should we exclude from the top 10 searches listed above(separated by ',')? Example - 2,3")
 
 
 to_list = exclude.split(',')
