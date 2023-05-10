@@ -5,7 +5,6 @@ This program takes an input from the user, performs a Google search for the give
 Usage
 To use this program, simply run the following command in your terminal:
 
-Copy code to your terminal
 python customized_report_summary.py
 
 You will then be prompted to enter a topic to search for. Once you enter your desired topic and press Enter, the program will perform a Google search and display a list of search results.
@@ -18,8 +17,11 @@ Dependencies
 This program requires the following dependencies:
 
 google (for performing the Google search)
+
 beautifulsoup4 (for parsing the search results)
+
 trafilatura (for scraping the text from the webpages)
+
 nltk(for breaking the results into chunks for feeding the AI model)
 openai
 
