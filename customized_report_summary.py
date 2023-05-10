@@ -185,7 +185,7 @@ with open('final.txt', 'w') as file:
 
 
 import openai
-openai.api_key = "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"
+openai.api_key = <please use your api key>
 
 
 # In[14]:
